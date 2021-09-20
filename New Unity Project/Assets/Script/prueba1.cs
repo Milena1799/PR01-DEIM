@@ -10,7 +10,7 @@ public class prueba1 : MonoBehaviour
     public int numeroEntero = 345;
     public int numeroEnteroDos = 3;
     float numeroDecimal = 55.3f;
-    private int resultado; 
+    public int resultado; 
     string cadena;
     // Start is called before the first frame update
     void Start()
