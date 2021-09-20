@@ -18,7 +18,6 @@ public class prueba2 : MonoBehaviour
         {
             numero++;
            
-            
 
         }
        
