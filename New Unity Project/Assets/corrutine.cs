@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class corrutine : MonoBehaviour
 {
     [SerializeField] Text MyText;
+  
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class corrutine : MonoBehaviour
                 for (int segundo = 0; segundo <= 59; segundo++)
                 {
                     yield return new WaitForSeconds(1f);
+                   
                     MyText.text = "Hora :" + hora + minuto + segundo;
 
 
@@ -39,7 +41,7 @@ public class corrutine : MonoBehaviour
                 }
             }
 
-
+            print(MyText.text);
 
         }
 
